@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
     def __init__(self, *args, **kwargs):
         super(MainWindow, self).__init__(*args, **kwargs)
         
-        # 设置窗口名称
+        # 设置窗口的名称
         self.setWindowTitle("某个学校数学建模协会比赛查询")
 
         # 设置状态栏
