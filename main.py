@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
     def __init__(self, *args, **kwargs):
         super(MainWindow, self).__init__(*args, **kwargs)
         
-        # 设置窗口的名称
+        # 设置窗口名称
         self.setWindowTitle("某个学校数学建模协会比赛查询")
 
         # 设置状态栏
@@ -24,6 +24,9 @@ class MainWindow(QMainWindow):
 
         # 设置初始化的窗口大小
         self.setFixedSize(600, 400)
+
+        # 设置初始化的窗口位置
+        self.center()
 
         # 设置窗口透明度
         self.setWindowOpacity(0.9) # 设置窗口透明度
