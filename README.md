@@ -8,6 +8,12 @@ Using qtdarkstyle and design layout without Qtdesigner
 - Design layout, frame and splitter by myself
 - A universal interface framework
 
+## Include
+
+- Layout: QSplitter, QVBoxLayout, QHBoxLayout, QStackLayout, QGridLayout
+- Counter: QTreeWidget, QTabWidget
+- Control: QPushButton, QRadioButton, QSpinBox, QComboBox, QLabel, etc.
+
 ## How to run
 
 `python main.py` can run it.
