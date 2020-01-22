@@ -13,6 +13,7 @@ Using qtdarkstyle and design layout without Qtdesigner
 - Layout: QSplitter, QVBoxLayout, QHBoxLayout, QStackLayout, QGridLayout
 - Counter: QTreeWidget, QTabWidget
 - Control: QPushButton, QRadioButton, QSpinBox, QComboBox, QLabel, etc.
+- DataBase: Install sqlite3 and put in system path.
 
 ## How to run
 
@@ -22,6 +23,10 @@ Using qtdarkstyle and design layout without Qtdesigner
 
 - PyQt5: 5.13.1
 - Python: 3.7.4
+
+## Weakness
+
+- Direct to connect database couldn't prevent database attacks, so should improve it with SQLAlchemy(A python library).
 
 ## Result
 
